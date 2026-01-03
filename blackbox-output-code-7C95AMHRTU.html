@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            direction: rtl;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: "✓";
+            position: absolute;
+            right: 0;
+            color: #007bff;
+        }
+        .video-section, .images-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video-placeholder {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        .images-section img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .price-section {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #007bff;
+            margin: 20px 0;
+        }
+        .cod {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #25d366;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .faq {
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            font-size: 0.9em;
+        }
+        /* Mobile-first responsive */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 800px;
+            }
+            .images-section img {
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            ShopNow
+        </header>
+        
+        <section>
+            <h1>تعاني من الحرارة الشديدة في الصيف؟ احصل على مكيف هواء محمول يبرد غرفتك بسرعة وسهولة!</h1>
+            <p>آلاف العملاء في ليبيا والعراق يثقون بنا للحصول على منتجات عالية الجودة وخدمة موثوقة.</p>
+        </section>
+        
+        <section class="video-section">
+            <h2>شاهد فيديو المنتج</h2>
+            <div class="video-placeholder">
+                <!-- Replace with actual video URL or embed code -->
+                فيديو المنتج (استبدل برابط الفيديو الحقيقي)
+            </div>
+        </section>
+        
+        <section>
+            <h2>المشكلة التي يعاني منها العملاء</h2>
+            <p>في ليبيا والعراق، يعاني الكثيرون من الحرارة الشديدة في الصيف، مما يسبب التعرق والإرهاق، ويصعب النوم أو العمل في المنزل دون تكييف.</p>
+        </section>
+        
+        <section>
+            <h2>الحل الذي نقدمه</h2>
+            <p>مكيف الهواء المحمول يبرد الغرفة بسرعة باستخدام تقنية التبريد الفعالة، سهل التركيب والاستخدام، ويوفر راحة فورية دون الحاجة إلى أجهزة كبيرة.</p>
+        </section>
+        
+        <section>
+            <h2>فوائد المنتج</h2>
+            <ul>
+                <li>تبريد سريع وفعال للغرف الصغيرة والمتوسطة</li>
+                <li>سهل الحمل والتركيب في أي مكان</li>
+                <li>استهلاك طاقة منخفض يوفر على الفاتورة الكهربائية</li>
+                <li>جودة عالية ومتانة طويلة الأمد</li>
+            </ul>
+        </section>
+        
+        <section class="images-section">
+            <h2>صور المنتج</h2>
+            <!-- Replace with actual image URLs -->
+            <img src="product-image1.jpg" alt="صورة المنتج 1">
+            <img src="product-image2.jpg" alt="صورة المنتج 2">
+        </section>
+        
+        <section class="price-section">
+            السعر: 500 دينار فقط
+            <!-- Easy to edit: Change the price here -->
+        </section>
+        
+        <section class="cod">
+            الدفع عند الاستلام (COD) متاح
+        </section>
+        
+        <a href="https://wa.me/XXXXXXXXXX" class="cta-button">
+            اطلب الآن عبر واتساب
+            <!-- Easy to edit: Replace XXXXXXXXXX with actual WhatsApp number -->
+        </a>
+        
+        <section class="faq">
+            <h2>الأسئلة الشائعة</h2>
+            <div class="faq-item">
+                <h3>كيف أطلب المنتج؟</h3>
+                <p>اضغط على زر "اطلب الآن عبر واتساب" وأرسل رسالة مع تفاصيل طلبك.</p>
+            </div>
+            <div class="faq-item">
+                <h3>هل يوجد توصيل؟</h3>
+                <p>نعم، نقدم خدمة توصيل سريعة إلى جميع المناطق في ليبيا والعراق.</p>
+            </div>
+            <div class="faq-item">
+                <h3>ما هي طريقة الدفع؟</h3>
+                <p>الدفع عند الاستلام نقدًا، لا حاجة لدفع مسبق.</p>
+            </div>
+        </section>
+        
+        <footer>
+            ShopNow – توصيل سريع | الدفع عند الاستلام | خدمة موثوقة
+        </footer>
+    </div>
+</body>
+</html>
